@@ -28,8 +28,8 @@ init(ManufacturerID:Int,ManufacturerName:String)
     
     func display()
     {
-        print("ManufacturerID : \(self.ManufacturerID)")
-        print("ManufacturerNmae : \(self.ManufacturerName)")
+        print("ManufacturerID : \(self.ManufacturerID!)")
+        print("ManufacturerNmae : \(self.ManufacturerName!)")
     }
 
 }

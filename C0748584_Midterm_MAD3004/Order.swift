@@ -12,27 +12,26 @@ class Order
 {
     
     var orderId : Int!
-    var orderDate : Date!
-    var productArray = [1 : "Harddrive", 2 : "Zipdrive",3 : "Floppydisk", 4 : "monitor", 5 : "Iphone7Plus"]
+    var orderDate : Int!
+    var productArray: [String]
     var orderTotal : Float!
     
-    init()
-    {
-        
-    }
-    
-    init(orderID:Int,orderDate:Date,orderTotal:Float)
+  
+    init(orderID:Int,orderDate:Int,productArray:[String] ,orderTotal:Float)
     {
         self.orderId = orderID
         self.orderDate = orderDate
         self.orderTotal = orderTotal
+        self.productArray = productArray
+        
     }
     
-    func display()
+  func display()
     {
         print("orderid : \(self.orderId)")
         print("orderDate : \(self.orderDate)")
         print("orderTotal: \(self.orderTotal)")
+        print("productArray: \(self.productArray)")
     }
     
     

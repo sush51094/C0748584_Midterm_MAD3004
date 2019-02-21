@@ -12,3 +12,16 @@ protocol Idisplay
 {
     func display()
 }
+
+
+extension Int
+
+{
+    
+    func currency()
+    {
+    
+        return `$`;\(self)
+    
+}
+}

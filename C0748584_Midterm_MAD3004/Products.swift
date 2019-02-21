@@ -19,10 +19,10 @@ class Products : Manufacturer
     override init()
     {
         super.init()
-        
+    
     }
     
-    init(productId:Int,productName:String,price:Float,quantity:Float)
+    init(productID:Int,productName:String,price:Float,quantity:Float,ManufacturerID:Int,ManufacturerName:String)
     {
         super.init()
         self.productId = productId
