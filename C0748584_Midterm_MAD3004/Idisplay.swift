@@ -14,14 +14,3 @@ protocol Idisplay
 }
 
 
-extension Int
-
-{
-    
-    func currency()
-    {
-    
-        return `$`;\(self)
-    
-}
-}

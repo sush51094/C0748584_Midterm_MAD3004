@@ -22,7 +22,7 @@ class Products : Manufacturer
     
     }
     
-    init(productID:Int,productName:String,price:Float,quantity:Float,ManufacturerID:Int,ManufacturerName:String)
+    init(productId:Int,productName:String,price:Float,quantity:Float,ManufacturerID:Int,ManufacturerName:String)
     {
         super.init()
         self.productId = productId
@@ -33,14 +33,14 @@ class Products : Manufacturer
     
     override func display()
     {
-        print("ProductID: \(self.productId)")
+        print("ProductID: \(self.productId!)")
     
-    print("ProductName : \(self.productName)")
+    print("ProductName : \(self.productName!)")
     
     
-    print("price : \(self.price)")
+    print("price : \(self.price!)")
     
-    print("quantity : \(self.quantity)")
+    print("quantity : \(self.quantity!)")
     
     }
     

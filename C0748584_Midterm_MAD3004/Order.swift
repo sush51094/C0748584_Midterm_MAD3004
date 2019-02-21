@@ -26,13 +26,22 @@ class Order
         
     }
     
+
+    
   func display()
     {
-        print("orderid : \(self.orderId)")
-        print("orderDate : \(self.orderDate)")
-        print("orderTotal: \(self.orderTotal)")
-        print("productArray: \(self.productArray)")
+        print("orderid : \(self.orderId)!")
+        print("orderDate : \(self.orderDate)!")
+        print("orderTotal: \(self.orderTotal)!")
+        print("productArray: \(self.productArray)!")
+        
     }
+    
+    
+    func 
+    
+    
+    
     
     
     

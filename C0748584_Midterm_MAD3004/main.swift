@@ -43,27 +43,32 @@ pd.productId = 001
 pd.productName = "hard drive"
 pd.price = 120.00
 pd.quantity = 1
+pd.display()
 
 pd1.productId = 002
 pd1.productName = "zip drive"
 pd1.price = 90.00
 pd1.quantity = 1
+pd1.display()
 
 pd2.productId = 003
 pd2.productName = "floppy disk"
 pd2.price = 50.00
 pd2.quantity = 1
+pd2.display()
 
 pd3.productId = 004
 pd3.productName = "Monitor"
 pd3.price = 300.00
 pd3.quantity = 1
+pd3.display()
 
 pd4.productId = 005
 pd4.productName = "Iphone&plus"
 pd4.price = 1200.00
 pd4.quantity = 1
+pd4.display()
 
-print(100.currency())
+
 
 
