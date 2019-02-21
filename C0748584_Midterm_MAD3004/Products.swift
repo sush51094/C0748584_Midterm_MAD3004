@@ -32,23 +32,23 @@ class Products : Manufacturer
     }
     
     
-    convenience init(_price:Float,_quantity:Float)
+    convenience init(price:Float,quantity:Float)
     {
         self.init()
-       var price = 120
-      var  quantity = 1
+       self.price = price
+      self.quantity = quantity
     }
     
     
     override func display()
     {
-        print("ProductID: \(self.productId!)")
+        print("ProductID: \(self.productId)")
     
-    print("ProductName : \(self.productName!)")
+    print("ProductName : \(self.productName)")
     
     print("price : \(self.price)")
     
-    print("quantity : \(self.quantity!)")
+    print("quantity : \(self.quantity)")
     
     }
     

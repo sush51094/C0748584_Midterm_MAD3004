@@ -13,26 +13,26 @@ class Order
     
     var orderId : Int!
     var orderDate : Int!
-    var productArray: [String]
+    var productArray: String!
     var orderTotal : Float!
     
+    var product = [Products]()
+    
   
-    init(orderID:Int,orderDate:Int,productArray:[String] ,orderTotal:Float)
+    init(orderID:Int,orderDate:Int)
     {
         self.orderId = orderID
         self.orderDate = orderDate
-        self.orderTotal = orderTotal
-        self.productArray = productArray
+        
+        
         
     }
     
-    
-    func calc(_ product : Products) -> Float
-        
+   func calc(_products : Products) -> Float
     {
-        return Products.quantity * Products.price
+        return Float(_products.quantity) * _products.price
     }
-
+    
   func display()
     {
         print("orderid : \(self.orderId)!")
@@ -49,8 +49,7 @@ class Order
     
     
     
-    
-    
+
     
     
     
