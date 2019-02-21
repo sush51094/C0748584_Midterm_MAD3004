@@ -26,8 +26,13 @@ class Order
         
     }
     
-
     
+    func calc(_ product : Products) -> Float
+        
+    {
+        return Products.quantity * Products.price
+    }
+
   func display()
     {
         print("orderid : \(self.orderId)!")
@@ -38,7 +43,6 @@ class Order
     }
     
     
-    func 
     
     
     

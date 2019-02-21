@@ -38,7 +38,6 @@ var od2 = Order(orderID:3,orderDate: 2016-03-14,productArray:["hard drive","Moni
 
 od2.display()
 
-
 pd.productId = 001
 pd.productName = "hard drive"
 pd.price = 120.00
