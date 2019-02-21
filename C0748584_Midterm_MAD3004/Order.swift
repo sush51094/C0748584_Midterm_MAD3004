@@ -12,14 +12,14 @@ class Order
 {
     
     var orderId : Int!
-    var orderDate : Int!
+    var orderDate : String!
     var productArray: String!
     var orderTotal : Float!
     
     var product = [Products]()
     
   
-    init(orderID:Int,orderDate:Int)
+    init(orderID:Int,orderDate:String)
     {
         self.orderId = orderID
         self.orderDate = orderDate

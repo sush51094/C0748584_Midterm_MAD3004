@@ -57,11 +57,28 @@ pd4.quantity = 1
 pd4.display()
 
 
-var od1 = Order(orderID: 200,orderDate: 2018-10-05)
-var od2 = Order(orderID: 400,orderDate: 2018-11-05)
-var od3 = Order(orderID: 1200,orderDate: 2018-11-10)
+var od1 = Order(orderID: 200,orderDate: "2018/10/05")
 
-var total = od1.calc(_products: pd)
-print("\(total)")
+od1.display()
+var od2 = Order(orderID: 400,orderDate: "2018/11/05")
 
+od2.display()
+
+var od3 = Order(orderID: 1200,orderDate: "2018/11/10")
+
+od3.display()
+
+var orderTotal = od1.calc(_products: pd)
+print("\(orderTotal)")
+
+var total1 = od1.calc(_products: pd1)
+print("\(total1)")
+
+var total2 = od1.calc(_products: pd2)
+print("\(total2)")
+
+
+
+
+print(100.currency())
 
